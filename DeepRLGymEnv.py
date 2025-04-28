@@ -5,7 +5,7 @@ import random
 import numpy as np
 from collections import deque
 
-
+#to add deepSARSA,AND DEEP-DOUBLEQ results from local
 class QNetwork(nn.Module):
     def __init__(self, state_dim, action_dim):
         super(QNetwork, self).__init__()
